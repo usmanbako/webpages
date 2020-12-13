@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css"/>
+    <title>Contact Us</title>
+    
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./images/SHB.png" alt="Logo"/>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="navigation" href="./index.html">Home</a></li>
+                <li><a class="navigation" href="./menu.html">Menu</a></li>
+                <li><a class="navigation" href="./Catering.html">Catering</a></li>
+                <li><a class="navigation" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="./images/drone-shot-armenia-yerevan.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your email..">
+                  <label for="city">City</label>
+                  <select id="city" name="city">
+                    <option value="woodway">Woodway</option>
+                    <option value="waco">Waco</option>
+                    <option value="beverlyhills">Beverly Hills</option>
+                    <option value="hewitt">Hewitt</option>
+                    <option value="killeen">Killeen</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+    </main>
+ 
+
+</body>
+
+</html>
